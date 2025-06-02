@@ -27,8 +27,4 @@ urlpatterns = [
     path('accounts/',include('accounts.urls')),
     
 
-<<<<<<< HEAD
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-=======
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
->>>>>>> 14e5e8f (Final adjustment - Code cleanup, merged group work, adjusted details)
