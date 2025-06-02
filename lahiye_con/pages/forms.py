@@ -25,4 +25,8 @@ class ContactForm(forms.ModelForm):
 
     class Meta:
         model = Contact
+<<<<<<< HEAD
         fields =  ['first_name', 'last_name', 'email', 'phone', 'message']
+=======
+        fields =  ['first_name', 'last_name', 'email', 'phone', 'message']
+>>>>>>> 14e5e8f (Final adjustment - Code cleanup, merged group work, adjusted details)
